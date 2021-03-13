@@ -1,0 +1,161 @@
+body{
+    background-image: linear-gradient( 89.8deg,  rgba(222,74,74,1) 4.7%, rgba(30,29,29,1) 120.3% );
+    font-family: 'Times New Roman',serif;}
+.heading{
+  
+    background: linear-gradient(to bottom, #cfc09f 22%,#634f2c 24%, #cfc09f 26%, #cfc09f 27%,#ffecb3 40%,#3a2c0f 78%); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #fff;
+font-family: 'Playfair Display', serif;
+    position: relative;
+	text-transform: uppercase;	
+    font-size:4em;
+    text-align: center;
+    height:3em;
+    line-height: 3em;
+	margin: 0;
+	font-weight: 500000;
+
+}
+.heading:after {
+    background: none;
+    content: attr(data-heading);
+    left: 0;
+	top: 0;
+    z-index: -1;
+    position: absolute;
+    text-shadow: 
+		-1px 0 1px #c6bb9f, 
+		0 1px 1px #c6bb9f, 
+		5px 5px 10px rgba(0, 0, 0, 0.4),
+		-5px -5px 10px rgba(0, 0, 0, 0.4);
+
+
+ 
+    
+}
+.userinputfield{
+    padding-left: 25%;
+    padding-right: 25%;
+    background-image: linear-gradient( 89.8deg,  rgba(222,74,74,1) 4.7%, rgba(30,29,29,1) 120.3% );
+    padding-top: 2%;
+   
+    
+}
+.textField{
+    width:90%;
+    height:2em;
+}
+.submitbutton{
+    width:9%;
+    height:2.3em;
+   
+    background: linear-gradient(to bottom, #cfc09f 22%,#634f2c 24%, #cfc09f 26%, #cfc09f 27%,#ffecb3 40%,#3a2c0f 78%); 
+    
+    background-color: red; 
+  
+    color:black;
+    font-size : 1em; 
+    font-weight:bold;
+}
+.removeButton{
+    background-color: transparent;
+    background: linear-gradient(to bottom, #cfc09f 22%,#634f2c 24%, #cfc09f 26%, #cfc09f 27%,#ffecb3 40%,#3a2c0f 78%); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #fff;
+    font-size: 1.1em;
+    float: right;
+    border: none;
+}
+.todotask{
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-bottom: 1%;
+    margin-top: 1em;
+    list-style-type: none;
+    font-size: 1.5em;
+   
+    font-weight: bold;
+   
+}
+.todotask {
+    max-width:50vw;
+    padding-bottom:25px;
+    position:relative;
+  }
+  .todotask:after {
+    content:'';
+    position:absolute;
+    bottom:0;
+    left:0;
+    right:0;
+    background:white;
+    height:6px;
+    border-radius:3px 3px 3px 3px;
+  }
+@media screen and (max-width: 795px) and (min-width: 200px) {
+    .heading{
+        background-color: blue;
+        color:white;
+        font-size:2em;
+        text-align: center;
+        height:3em;
+        line-height: 3em;
+        
+    }
+    .userinputfield{
+        padding-left: 25%;
+        padding-right: 25%;
+        background-color: yellow;
+        padding-top: 2%;
+       
+        
+    }
+    .textField{
+        width:80%;
+        height:2em;
+    }
+    .submitbutton{
+        width:16%;
+        height:2.2em;
+        background-color: red;
+        color:black;
+        font-weight: bold;
+    }
+    .removeButton{
+        background-color: transparent;
+        color: green;
+        font-size: 1em;
+        float: right;
+        border: none;
+    }
+    .todotask{
+        margin-left: 30%;
+        margin-right: 30%;
+        padding-bottom: 1%;
+        margin-top: 1em;
+        list-style-type: none;
+        font-size: 1em;
+       
+        font-weight: bold;
+       
+    }
+    .todotask {
+        max-width:50vw;
+        padding-bottom:25px;
+        position:relative;
+      }
+      .todotask:after {
+        content:'';
+        position:absolute;
+        bottom:0;
+        left:0;
+        right:0;
+        background:white;
+        height:6px;
+        border-radius:3px 3px 3px 3px;
+      }
+  }
+ 
